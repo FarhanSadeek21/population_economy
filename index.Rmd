@@ -3,6 +3,11 @@ title: "Population and Economy"
 description: |
   Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
